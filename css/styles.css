@@ -1,0 +1,72 @@
+/***************Element Selector***********************/
+
+div {
+  height: auto;
+}
+body {
+  margin: 0px;
+  text-align: center;
+}
+#maincontainer h1 {
+  margin: 0px;
+  font-family: "Sacramento", cursive;
+  font-size: 120px;
+}
+p {
+  font-family: "Merriweather", serif;
+  margin: 0px;
+}
+
+hr {
+  background-color: black;
+  border-style: dotted none none;
+  border-width: 1ex;
+  border-color: #293b5f;
+  height: 1px;
+  width: 8%;
+  text-align: center;
+}
+
+/***************ID  Selector***********************/
+#maincontainer {
+  background-color: #94b3ff;
+  padding: 250px;
+  position: relative;
+  border: none;
+  padding-bottom: 15px;
+  margin-bottom: 150px;
+}
+
+/***************Class Selector***********************/
+.cloud {
+  opacity: 25%;
+  height: 125px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 120px;
+  top: 350px;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+#mycontainer .col {
+  background-color: #b0ccff;
+  margin: 0px 15px 0px 15px;
+}
+.row {
+  margin-top: 15px;
+}
+#mycontainer .col:hover {
+  background-color: #212529;
+}
+
+.footer {
+  background-color: rgb(18, 72, 104);
+  margin: 0;
+  
+}
